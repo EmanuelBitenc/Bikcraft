@@ -1,0 +1,14 @@
+$black: #000;
+$white: #fff;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0px 20px;
+  box-sizing: border-box;
+}

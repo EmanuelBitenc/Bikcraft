@@ -1,0 +1,21 @@
+$black: #000000;
+$white: #ffffff;
+
+.header ul {
+  color: $white;
+  font-family: "poppins";
+}
+
+.linkAfter::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 10px;
+  background: $white;
+  margin-top: 4px;
+  transition: 0.3s;
+  position: absolute;
+}
+.linkAfter:hover:after {
+  width: 100%;
+}
