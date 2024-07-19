@@ -1,9 +1,27 @@
-$black: #000000;
-$white: #ffffff;
+.header-bg {
+  background-color: black;
+}
 
-.header ul {
-  color: $white;
-  font-family: "poppins";
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  ul {
+    font-family: "poppins", sans-serif;
+    display: flex;
+    gap: 40px;
+  }
+  a {
+    position: relative;
+    padding: 16px 0px;
+    color: white;
+    font-size: 18px;
+  }
 }
 
 .linkAfter::after {
@@ -11,7 +29,7 @@ $white: #ffffff;
   display: block;
   height: 2px;
   width: 10px;
-  background: $white;
+  background: white;
   margin-top: 4px;
   transition: 0.3s;
   position: absolute;
