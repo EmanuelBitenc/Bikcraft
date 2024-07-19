@@ -4,13 +4,13 @@ import "./intro.scss";
 
 const Intro: React.FC = () => {
   return (
-    <main className="introBg ">
-      <div className="container  text-white">
-        <div className="grid grid-cols-2 gap-5 ">
-          <div className="self-end pb-72 w-3/5">
-            <h1 className="title text-5xl font-bold ">
+    <main className="intro-bg ">
+      <div className="container ">
+        <div className="intro">
+          <div className="painelText">
+            <h1>
               Bicicletas feitas sob medida
-              <span style={{ color: "#ffbb00" }}>.</span>
+              <span>.</span>
             </h1>
             <p>
               Bicicletas elétricas de alta precisão e qualidade, feitas sob
@@ -19,9 +19,9 @@ const Intro: React.FC = () => {
             </p>
             <a href="">Escolha a sua</a>
           </div>
-          <picture>
-            <img src={introducao} width={"1280px"} height={"1600px"} />
-          </picture>
+          <div className="image">
+            <img src={introducao} />
+          </div>
         </div>
       </div>
     </main>
