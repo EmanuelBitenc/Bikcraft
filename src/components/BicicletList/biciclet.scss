@@ -4,7 +4,40 @@ $destaque: #ffbb00;
   padding: 60px 0px 120px;
 }
 
-h2 {
+.bicicletUl {
+  display: flex;
+  gap: 40px;
+  padding: 0 20px 20px 20px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: auto;
+}
+
+.bicicletLi {
+  flex: 1;
+  min-width: 280px;
+}
+
+.bicicletLi span {
+  padding-left: 20px;
+}
+
+.bicicletImg {
+  width: 100%;
+  height: auto;
+  margin-bottom: 16px;
+}
+
+.bicicletLink {
+  display: block;
+}
+.bicicletName {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+.bicicletasTitle {
   margin-bottom: 40px;
   font-size: 3rem;
   font-family: "poppins", sans-serif;
@@ -13,11 +46,10 @@ h2 {
   span {
     color: $destaque;
   }
-
-  a {
-    width: "920px";
-    height: "1040px";
-  }
+}
+.bicicletLink {
+  width: "920px";
+  height: "1040px";
 }
 
 .bicicletName {
@@ -34,41 +66,7 @@ h2 {
   font-weight: 500;
 }
 
-ul {
-  display: flex;
-  gap: 40px;
-  padding: 0 20px 20px 20px;
-  max-width: 1400px;
-  margin-left: auto;
-  margin-right: auto;
-  overflow-x: auto;
-
-  li {
-    flex: 1;
-    min-width: 280px;
-  }
-
-  li span {
-    padding-left: 20px;
-  }
-
-  img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 16px;
-  }
-
-  a {
-    display: block;
-  }
-  h3 {
-    margin-bottom: 8px;
-    display: flex;
-    align-items: center;
-  }
-}
-
-h3::before {
+.bicicletName::before {
   content: "";
   display: inline-block;
   height: 8px;
@@ -78,7 +76,7 @@ h3::before {
   transition: width 0.2s;
 }
 
-a:hover h3::before {
+.bicicletLink:hover .bicicletName::before {
   width: 24px;
 }
 

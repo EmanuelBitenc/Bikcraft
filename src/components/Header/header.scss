@@ -14,25 +14,25 @@
     display: flex;
     gap: 40px;
   }
-  a {
+  .linkAfter {
     font-family: "poppins", sans-serif;
     position: relative;
     padding: 16px 0px;
     color: white;
     font-size: 18px;
   }
-}
 
-.linkAfter::after {
-  content: "";
-  display: block;
-  height: 2px;
-  width: 10px;
-  background: white;
-  margin-top: 4px;
-  transition: 0.3s;
-  position: absolute;
-}
-.linkAfter:hover:after {
-  width: 100%;
+  .linkAfter::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 10px;
+    background: white;
+    margin-top: 4px;
+    transition: 0.3s;
+    position: absolute;
+  }
+  .linkAfter:hover:after {
+    width: 100%;
+  }
 }

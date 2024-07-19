@@ -6,11 +6,11 @@ const BicicletList: React.FC = () => {
   return (
     <>
       <article className="bicicletasLista">
-        <h2 className="container title">
+        <h2 className="container bicicletasTitle">
           escolha a sua<span>.</span>
         </h2>
 
-        <ul>
+        <ul className="bicicletUl">
           {BicicletsData &&
             BicicletsData.map((biciclet) => (
               <Biciclet

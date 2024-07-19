@@ -1,3 +1,4 @@
+import "./header.scss";
 interface LinkListProps {
   href: string;
   label: string;

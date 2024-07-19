@@ -1,0 +1,112 @@
+.tecnologiaBg {
+  background-color: #111;
+  box-shadow: inset 0 80px white, inset 0 -80px white;
+}
+
+.tecnologia {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.tecnologiaConteudo {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+.uperText {
+  display: block;
+  margin-bottom: 20px;
+  color: #b2b2b2;
+  font-size: 1.125rem;
+  font-weight: 500;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+  font-family: "roboto", sans-serif;
+}
+.titleTec {
+  margin-bottom: 32px;
+  color: white;
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 1.125;
+  font-family: "poppins", sans-serif;
+}
+.destaque {
+  color: #ffbb00;
+}
+
+.EscolhaBicicleta {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 80px;
+  color: #ffbb00;
+  font-family: "poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+.EscolhaBicicleta::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: #ffbb00;
+}
+
+.descricaoTec {
+  font: 400 1.2rem/1.5 Roboto, sans-serif;
+  margin-bottom: 20px;
+  color: #b2b2b2;
+}
+.tituloTec {
+  margin-bottom: 8px;
+  color: white;
+  font: 500 1.125rem/1.35 "Poppins", sans-serif;
+}
+.paragrafTec {
+  color: #b2b2b2;
+  font: 400 1rem/1.5 "Roboto", sans-serif;
+}
+
+.tecnologiaVantagens {
+  display: flex;
+  gap: 40px;
+}
+img {
+  margin-bottom: 8px;
+}
+
+.tecnologiaImagem,
+.tecnologiaImagem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left;
+}
+
+@media (max-width: 980px) {
+  .tecnologiaBg {
+    box-shadow: initial;
+  }
+  .tecnologia {
+    grid-template-columns: 1fr;
+  }
+  .text-container {
+    padding-bottom: 80px;
+    padding-top: 80px;
+  }
+  .tec {
+    margin-bottom: 10px;
+  }
+
+  .img-tec {
+    display: none;
+  }
+}
+@media (max-width: 980px) {
+  .tec-detalhes {
+    flex-direction: column;
+  }
+}

@@ -1,3 +1,4 @@
+import "./biciclet.scss";
 interface BicicletProps {
   href: string;
   src: string;
@@ -8,9 +9,9 @@ interface BicicletProps {
 
 const Biciclet: React.FC<BicicletProps> = (props) => {
   return (
-    <li>
-      <a href={props.href}>
-        <img src={props.src} alt={props.alt} />
+    <li className="bicicletLi">
+      <a className="bicicletLink" href={props.href}>
+        <img className="bicicletImg" src={props.src} alt={props.alt} />
         <h3 className="bicicletName">{props.name}</h3>
         <span className="bicicletPrice">{props.price}</span>
       </a>
