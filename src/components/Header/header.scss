@@ -8,15 +8,14 @@
   gap: 20px;
   justify-content: space-between;
   align-items: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 0px;
 
   ul {
-    font-family: "poppins", sans-serif;
     display: flex;
     gap: 40px;
   }
   a {
+    font-family: "poppins", sans-serif;
     position: relative;
     padding: 16px 0px;
     color: white;
