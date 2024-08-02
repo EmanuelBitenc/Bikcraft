@@ -8,7 +8,7 @@ const Depoimento = () => {
       <div className="depoimento-img">
         <img src={depoimento} alt="" style={{ width: "100%" }} />
       </div>
-      <div className="depoimento-text">
+      <div className="depoimento-texts">
         <p className="depoimentoText">
           <span className="absolute absolute2 aspas">"</span>Pedalar sempre foi
           a minha paixão, o que o pessoal da Bikcraft fez foi intensificar o meu
