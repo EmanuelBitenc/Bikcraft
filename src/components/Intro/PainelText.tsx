@@ -5,11 +5,13 @@ const PainelText = () => {
         Bicicletas feitas sob medida
         <span>.</span>
       </h1>
-      <p>
+      <p className="paragrafoMain">
         Bicicletas elétricas de alta precisão e qualidade, feitas sob medida
         para você. Explore o mundo na sua velocidade com a Bikcraft.
       </p>
-      <a href="">Escolha a sua</a>
+      <a href="" className="buttonMain">
+        Escolha a sua
+      </a>
     </div>
   );
 };

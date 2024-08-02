@@ -1,6 +1,7 @@
+@import "../../styles/global.scss";
 .tecnologiaBg {
   background-color: #111;
-  box-shadow: inset 0 80px white, inset 0 -80px white;
+  box-shadow: inset 0 80px white, inset 0 -80px $white;
 }
 
 .tecnologia {
@@ -14,33 +15,23 @@
   padding-top: 160px;
   padding-bottom: 160px;
 }
-.uperText {
-  display: block;
-  margin-bottom: 20px;
-  color: #b2b2b2;
-  font-size: 1.125rem;
-  font-weight: 500;
-  letter-spacing: 0.015em;
-  text-transform: uppercase;
-  font-family: "roboto", sans-serif;
-}
+
 .titleTec {
-  margin-bottom: 32px;
-  color: white;
-  font-size: 3.5rem;
-  font-weight: 600;
-  line-height: 1.125;
-  font-family: "poppins", sans-serif;
+  @include titleSection;
 }
 .destaque {
-  color: #ffbb00;
+  color: $destaqueColor;
+}
+
+.uperText {
+  @include uperText;
 }
 
 .EscolhaBicicleta {
   display: inline-block;
   position: relative;
   margin-bottom: 80px;
-  color: #ffbb00;
+  color: $destaqueColor;
   font-family: "poppins", sans-serif;
   font-size: 1.5rem;
   font-weight: 500;
@@ -52,22 +43,20 @@
   display: block;
   width: 100%;
   height: 4px;
-  background-color: #ffbb00;
+  background-color: $destaqueColor;
 }
 
 .descricaoTec {
-  font: 400 1.2rem/1.5 Roboto, sans-serif;
-  margin-bottom: 20px;
-  color: #b2b2b2;
+  color: $pColor;
+  font: 400 1rem/1.5 "Roboto", sans-serif;
 }
 .tituloTec {
   margin-bottom: 8px;
-  color: white;
+  color: $white;
   font: 500 1.125rem/1.35 "Poppins", sans-serif;
 }
-.paragrafTec {
-  color: #b2b2b2;
-  font: 400 1rem/1.5 "Roboto", sans-serif;
+.paragrafoMain {
+  @include paragrafoMain;
 }
 
 .tecnologiaVantagens {

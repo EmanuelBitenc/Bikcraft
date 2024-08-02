@@ -1,4 +1,15 @@
-$destaque: #ffbb00;
+@import "../../styles/global.scss";
+
+.bicicletasTitle {
+  margin-bottom: 20px;
+  font-size: 3.5rem;
+  font-family: "poppins", sans-serif;
+  padding: 0px 20px;
+
+  span {
+    color: $destaqueColor;
+  }
+}
 
 .bicicletasLista {
   padding: 60px 0px 120px;
@@ -37,16 +48,7 @@ $destaque: #ffbb00;
   display: flex;
   align-items: center;
 }
-.bicicletasTitle {
-  margin-bottom: 40px;
-  font-size: 3rem;
-  font-family: "poppins", sans-serif;
-  padding: 0px 20px;
 
-  span {
-    color: $destaque;
-  }
-}
 .bicicletLink {
   width: "920px";
   height: "1040px";
@@ -72,7 +74,7 @@ $destaque: #ffbb00;
   height: 8px;
   width: 12px;
   margin-right: 8px;
-  background-color: $destaque;
+  background-color: $destaqueColor;
   transition: width 0.2s;
 }
 

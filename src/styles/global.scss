@@ -1,6 +1,12 @@
 $black: #000;
 $white: #fff;
 
+$gradient1: #ffbf00;
+$gradient2: #f2a50c;
+$destaqueColor: #ffbb00;
+$buttonText: #332200;
+$pColor: #b2b2b2;
+
 * {
   padding: 0;
   margin: 0;
@@ -19,4 +25,44 @@ ul {
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
+}
+
+@mixin paragrafoMain {
+  color: $pColor;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-family: "roboto", sans-serif;
+}
+
+@mixin buttonMain {
+  font-family: "poppins", sans-serif;
+  display: inline-block;
+  padding: 16px 32px;
+  background: linear-gradient($gradient1, $gradient2);
+  font-weight: bold;
+  font-size: 18px;
+  color: $buttonText;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+@mixin titleSection {
+  margin-bottom: 32px;
+  color: $white;
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 1.125;
+  font-family: "poppins", sans-serif;
+}
+
+@mixin uperText {
+  display: block;
+  margin-bottom: 20px;
+  color: $pColor;
+  font-size: 1.125rem;
+  font-weight: 500;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+  font-family: "roboto", sans-serif;
 }

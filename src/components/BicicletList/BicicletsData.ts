@@ -1,8 +1,9 @@
-import magicHome from "../../assets/imgs/BicicletHome/magicHome.jpg";
-import nebulaHome from "../../assets/imgs/BicicletHome/nebulaHome.jpg";
-import nimbusHome from "../../assets/imgs/BicicletHome/nimbusHome.jpg";
+import magicHome from "../../assets/imgs/bicicletas/magic-home.jpg";
+import nebulaHome from "../../assets/imgs/bicicletas/nebula-home.jpg";
+import nimbusHome from "../../assets/imgs/bicicletas/nimbus-home.jpg";
 
 interface BicicletData {
+  id: number;
   href: string;
   src: string;
   alt: string;
@@ -12,6 +13,7 @@ interface BicicletData {
 
 const bicicletData: BicicletData[] = [
   {
+    id: 1,
     href: "./bicicletas/magic.html",
     src: magicHome,
     alt: "Bicicleta preta",
@@ -19,6 +21,7 @@ const bicicletData: BicicletData[] = [
     price: "R$ 2499",
   },
   {
+    id: 2,
     href: "./bicicletas/nimbus.html",
     src: nebulaHome,
     alt: "Bicicleta preta",
@@ -26,6 +29,7 @@ const bicicletData: BicicletData[] = [
     price: "R$ 4999",
   },
   {
+    id: 3,
     href: "./bicicletas/nebula.html",
     src: nimbusHome,
     alt: "Bicicleta preta",

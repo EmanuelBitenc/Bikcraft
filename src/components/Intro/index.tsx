@@ -1,4 +1,4 @@
-import introducao from "../../assets/imgs/intro/introducao.jpg";
+import introducao from "../../assets/imgs/fotos/introducao.jpg";
 import "../../styles/global.scss";
 import "./intro.scss";
 import PainelText from "./PainelText";

@@ -14,7 +14,7 @@ const BicicletList: React.FC = () => {
           {BicicletsData &&
             BicicletsData.map((biciclet) => (
               <Biciclet
-                key={biciclet.href}
+                key={biciclet.id}
                 href={biciclet.href}
                 src={biciclet.src}
                 alt={biciclet.alt}
