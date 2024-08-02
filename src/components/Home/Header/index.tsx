@@ -1,4 +1,4 @@
-import bikcraft from "../../assets/imgs/bikcraft.svg";
+import bikcraft from "../../../assets/imgs/bikcraft.svg";
 import "./header.scss";
 import LinkList from "./LinkList";
 

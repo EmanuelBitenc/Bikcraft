@@ -1,8 +1,8 @@
 import "./tecnologias.scss";
 
-import eletrica from "../../assets/icons/eletrica.svg";
-import rastreador from "../../assets/icons/rastreador.svg";
-import tecnologia from "../../assets/imgs/fotos/tecnologia.jpg";
+import eletrica from "../../../assets/icons/eletrica.svg";
+import rastreador from "../../../assets/icons/rastreador.svg";
+import tecnologia from "../../../assets/imgs/fotos/tecnologia.jpg";
 
 const Tecnologias = () => {
   return (

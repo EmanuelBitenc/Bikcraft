@@ -1,4 +1,4 @@
-@import "../../styles/global.scss";
+@import "../../../styles/global.scss";
 
 .header-bg {
   background-color: black;
@@ -36,5 +36,37 @@
   }
   .linkAfter:hover:after {
     width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .header {
+    flex-direction: column;
+    ul {
+      gap: 20px;
+    }
+    .linkAfter {
+      background: var(--cor-11);
+      padding: 12px 16px;
+      border-radius: 4px;
+    }
+    .linkAfter:hover {
+      background-color: #111;
+    }
+    .linkAfter:after {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    ul {
+      gap: 12px;
+    }
+    .linkAfter {
+      padding: 8px 12px;
+      font-size: 14px;
+    }
   }
 }

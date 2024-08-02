@@ -1,16 +1,10 @@
-import BicicletList from "./components/Home/BicicletList";
-import Header from "./components/Home/Header";
-import Intro from "./components/Home/Intro";
-import Tecnologias from "./components/Home/Tecnologias";
+import Home from "./components/Home/Home";
 import "./styles/global.scss";
 
 const App: React.FC = () => {
   return (
     <>
-      <Header />
-      <Intro />
-      <BicicletList />
-      <Tecnologias />
+      <Home />
     </>
   );
 };
