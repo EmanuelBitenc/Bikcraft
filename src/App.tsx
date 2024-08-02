@@ -1,7 +1,7 @@
-import BicicletList from "./components/BicicletList";
-import Header from "./components/Header";
-import Intro from "./components/Intro";
-import Tecnologias from "./components/Tecnologias";
+import BicicletList from "./components/Home/BicicletList";
+import Header from "./components/Home/Header";
+import Intro from "./components/Home/Intro";
+import Tecnologias from "./components/Home/Tecnologias";
 import "./styles/global.scss";
 
 const App: React.FC = () => {

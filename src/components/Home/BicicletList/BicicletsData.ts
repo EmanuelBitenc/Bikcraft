@@ -1,6 +1,6 @@
-import magicHome from "../../assets/imgs/bicicletas/magic-home.jpg";
-import nebulaHome from "../../assets/imgs/bicicletas/nebula-home.jpg";
-import nimbusHome from "../../assets/imgs/bicicletas/nimbus-home.jpg";
+import magicHome from "../../../assets/imgs/bicicletas/magic-home.jpg";
+import nebulaHome from "../../../assets/imgs/bicicletas/nebula-home.jpg";
+import nimbusHome from "../../../assets/imgs/bicicletas/nimbus-home.jpg";
 
 interface BicicletData {
   id: number;
