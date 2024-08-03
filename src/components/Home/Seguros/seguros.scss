@@ -1,0 +1,102 @@
+@import "../../../styles/global.scss";
+.seguros-bg {
+  background: #111;
+}
+
+.seguros {
+  color: $white;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.seguros h2 {
+  grid-column: 1/-1;
+  color: $white;
+
+  span {
+    color: $destaqueColor;
+  }
+}
+
+.seguroName {
+  font-family: "poppins", sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+}
+
+.seguroName.ouro {
+  color: $destaqueColor;
+}
+.seguroName.prata {
+  color: #9c9c9c;
+}
+
+.seguros-item {
+  background-color: $black;
+  padding: 32px 32px 32px 60px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  border-radius: 4px;
+
+  span {
+    grid-column: 2;
+    display: block;
+    text-align: right;
+
+    font-size: 1.5rem;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+
+    span {
+      color: #9c9c9c;
+      font-weight: 500;
+      font-size: 0.75rem;
+    }
+  }
+}
+
+.seguros-item ul {
+  grid-column: 1/-1;
+  margin-bottom: 32px;
+}
+.seguros-item li {
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  font-family: "roboto", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+.seguros-item li::before {
+  content: "";
+  display: inline-block;
+  width: 13px;
+  height: 9px;
+  background-image: url("../../../assets/icons/lista.svg");
+  position: absolute;
+  left: -21px;
+}
+
+.seguros-item li + li {
+  margin-top: 20px;
+}
+.seguros-item a {
+  @include buttonMain;
+  grid-column: 1/-1;
+}
+
+.seguros-item a.prataButton {
+  background: #2e2e2e;
+  color: $white;
+}
+
+@media (max-width: 800px) {
+  .seguros {
+    grid-template-columns: 1fr;
+  }
+}

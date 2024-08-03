@@ -32,6 +32,10 @@
     .buttonMain {
       @include buttonMain;
     }
+
+    .buttonMain:hover {
+      background: $destaqueColor;
+    }
   }
   .intro img,
   picture img {

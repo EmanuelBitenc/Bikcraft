@@ -15,7 +15,7 @@ const Depoimento = () => {
           amor por esta atividade. Recomendo à todos que amo.
           <span className="aspas absolute">"</span>
         </p>
-        <span className="depoimentoName">Ana Júlia</span>
+        <span className="depoimentoName">Anna Clara</span>
       </div>
     </section>
   );
