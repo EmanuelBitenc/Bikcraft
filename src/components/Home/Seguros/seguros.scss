@@ -4,7 +4,6 @@
 }
 
 .seguros {
-  color: $white;
   padding-top: 60px;
   padding-bottom: 60px;
   display: grid;
@@ -13,10 +12,9 @@
   align-items: center;
 }
 
-.seguros h2 {
+.seguros .titleSeguros {
+  @include titleSection;
   grid-column: 1/-1;
-  color: $white;
-
   span {
     color: $destaqueColor;
   }
@@ -50,6 +48,7 @@
     font-size: 1.5rem;
     font-family: "poppins", sans-serif;
     font-weight: 600;
+    color: $white;
 
     span {
       color: #9c9c9c;

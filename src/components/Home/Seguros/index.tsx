@@ -5,7 +5,7 @@ const Seguros = () => {
   return (
     <article className="seguros-bg">
       <div className="seguros container">
-        <h2 className="titleSection">
+        <h2 className="titleSeguros">
           seguros<span>.</span>
         </h2>
         <SegurosItens />

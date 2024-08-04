@@ -1,18 +1,19 @@
 @import "../../../styles/global.scss";
 
+.bicicletasLista {
+  padding: 60px 0px 120px;
+}
+
 .bicicletasTitle {
   margin-bottom: 20px;
   font-size: 3.5rem;
   font-family: "poppins", sans-serif;
   padding: 0px 20px;
+  color: $black;
 
   span {
     color: $destaqueColor;
   }
-}
-
-.bicicletasLista {
-  padding: 60px 0px 120px;
 }
 
 .bicicletUl {
@@ -47,6 +48,7 @@
   margin-bottom: 8px;
   display: flex;
   align-items: center;
+  color: $black;
 }
 
 .bicicletLink {

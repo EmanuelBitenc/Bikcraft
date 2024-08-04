@@ -5,7 +5,7 @@ import BicicletsData from "./BicicletsData";
 const BicicletList: React.FC = () => {
   return (
     <>
-      <article className="bicicletasLista">
+      <div className="bicicletasLista">
         <h2 className="container bicicletasTitle">
           escolha a sua<span>.</span>
         </h2>
@@ -23,7 +23,7 @@ const BicicletList: React.FC = () => {
               />
             ))}
         </ul>
-      </article>
+      </div>
     </>
   );
 };
