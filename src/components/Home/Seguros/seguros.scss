@@ -85,8 +85,8 @@
   margin-top: 20px;
 }
 .seguros-item a {
-  @include buttonMain;
   grid-column: 1/-1;
+  @include buttonMain;
 }
 
 .seguros-item a.prataButton {
@@ -97,5 +97,14 @@
 @media (max-width: 800px) {
   .seguros {
     grid-template-columns: 1fr;
+  }
+  .seguros .titleSeguros {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .seguros .titleSeguros {
+    font-size: 2.5rem;
   }
 }

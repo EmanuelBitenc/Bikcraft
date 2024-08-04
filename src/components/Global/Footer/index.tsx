@@ -12,13 +12,13 @@ const Footer = () => {
       <div className="footer container">
         <img src={bikcraft} width="136" height="32" alt="Bikcraft" />
         <div className="footer-contato">
-          <h3 className="font-2-l-b cor-0">Contato</h3>
-          <ul className="font-1-m cor-5">
+          <h3 className="titleContato ">Contato</h3>
+          <ul className="textContato ">
             <li>
-              <a href="tel:+552199999999">+55 21 9999-9999</a>
+              <a href="#">+55 21 9999-9999</a>
             </li>
             <li>
-              <a href="mailto:contato@bikcraft.com">contato@bikcraft.com</a>
+              <a href="#">contato@bikcraft.com</a>
             </li>
             <li>Rua Ali Perto, 42 - Botafogo</li>
             <li>Rio de Janeiro - RJ</li>
@@ -36,9 +36,9 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-informacoes">
-          <h3 className="font-2-l-b cor-0">Informações</h3>
+          <h3 className="titleContato ">Informações</h3>
           <nav>
-            <ul className="font-1-m cor-5">
+            <ul className="textContato ">
               <li>
                 <a href="./bicicletas.html">Bicicletas</a>
               </li>
@@ -54,9 +54,7 @@ const Footer = () => {
             </ul>
           </nav>
         </div>
-        <p className="footer-copy font-2-m cor-6">
-          Bikcraft © Alguns direitos reservados.
-        </p>
+        <p className="footer-copy ">Bikcraft © Alguns direitos reservados.</p>
       </div>
     </footer>
   );

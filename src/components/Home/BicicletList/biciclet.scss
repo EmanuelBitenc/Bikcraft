@@ -85,10 +85,19 @@
 }
 
 @media (max-width: 800px) {
+  .bicicletasTitle {
+    font-size: 3rem;
+  }
+
   .bicicletasLista {
     padding-bottom: 60px;
   }
   .bicicletasLista ul {
     gap: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .bicicletasTitle {
+    font-size: 2.5rem;
   }
 }

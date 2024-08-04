@@ -61,6 +61,7 @@
 @media (max-width: 600px) {
   .parceiros h3 {
     margin-bottom: 20px;
+    font-size: 3rem;
   }
   .lista-parceiros {
     grid-template-columns: repeat(2, 1fr);
@@ -72,6 +73,7 @@
 @media (max-width: 500px) {
   .parceiros h3 {
     margin-bottom: 10px;
+    font-size: 2.5rem;
   }
   .parceiro {
     width: 140px;
