@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import bikcraft from "../../../assets/imgs/bikcraft.svg";
 import "./header.scss";
 import LinkList from "./LinkList";
@@ -8,15 +9,17 @@ const Header = () => {
       <div className="container">
         <div className="header">
           <div>
-            <a href="#">
+            <Link to="/">
               <img src={bikcraft} alt={"Logo Bikcraft"} />
-            </a>
+            </Link>
           </div>
           <nav>
             <ul>
-              <LinkList href="./bicicletas" label="Bicicletas" />
-              <LinkList href="./seguros" label="Seguros" />
-              <LinkList href="./contato" label="Contato" />
+              <Link to="/bicicletas" className="linkAfter ">
+                Bicicletas
+              </Link>
+              <LinkList href="#" label="Seguros" />
+              <LinkList href="#" label="Contato" />
             </ul>
           </nav>
         </div>

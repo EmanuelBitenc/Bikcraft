@@ -4,10 +4,10 @@ interface LinkListProps {
   label: string;
 }
 
-const LinkList: React.FC<LinkListProps> = (props) => {
+const LinkList: React.FC<LinkListProps> = ({ href, label }) => {
   return (
-    <a className="linkAfter " href={props.href}>
-      <li>{props.label}</li>
+    <a className="linkAfter " href={href}>
+      <li>{label}</li>
     </a>
   );
 };
