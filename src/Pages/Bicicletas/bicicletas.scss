@@ -17,8 +17,41 @@
   background-color: $black;
 }
 
+.bicicletasDetalhesClaro li {
+  color: #595959;
+  font: 500 1.125rem/1.35 Poppins, sans-serif;
+}
+
+.escura {
+  color: #b2b2b2;
+}
+
+.clara {
+  color: #595959;
+}
+
+.bicicletasDetalhesEscuro li {
+  color: #b2b2b2;
+  font: 500 1.125rem/1.35 Poppins, sans-serif;
+}
+
+.bicicletas-imagem img {
+  border-radius: 4px;
+}
+
+.escuro {
+  color: #b2b2b2;
+}
+.bicicletaDescricao {
+  font: 400 1.3rem/1.5 Roboto, sans-serif;
+}
+
+.bicicletasName {
+  font: 600 1.6rem/1.25 "Poppins", sans-serif;
+}
+
 .bicicletas-bg {
-  background: linear-gradient(to right, $black 30%, #111111 0%);
+  background: linear-gradient(to right, $white 30%, #111111 0%);
 }
 
 .bicicletas {
@@ -27,7 +60,13 @@
   gap: 40px;
   padding-top: 60px;
   padding-bottom: 60px;
-  background: url("../../img/dec/top-right.svg") no-repeat top 40px right 20px;
+  background: url("../../assets/imgs/dec/top-right.svg") no-repeat top 40px
+    right 20px;
+}
+
+.price {
+  font: 500 1.125rem/1.35 Roboto, sans-serif;
+  color: #fff;
 }
 
 .bicicletas-imagem {
